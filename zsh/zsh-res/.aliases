@@ -1,0 +1,7 @@
+alias srm='sudo rm -r '
+alias docker-compose='docker compose'
+alias k='kubectl'
+alias kc='kubectx'
+alias kn='kubens'
+alias nvim-astro="NVIM_APPNAME=AstroNvim nvim"
+alias nvim-lazy="NVIM_APPNAME=LazyNvim nvim"

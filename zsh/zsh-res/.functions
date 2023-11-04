@@ -1,0 +1,21 @@
+#Create a new directory and cd into it
+function mkd() {
+		mkdir -p "$@" && cd "$_";
+}
+
+function init_git_config() {
+    # Prompt user for input
+    echo -n "Enter your username: "
+    read name
+    echo -n "Enter your GitHub ID: "
+    read email
+    echo -n "Enter your credential username: "
+    read credential_username
+
+    # Set git configuration values
+    git config user.name "$name"
+    git config user.email "$email+$name@users.noreply.github.com"
+    git config credential.username "$credential_username"
+
+    echo "Git configuration updated!"
+}
