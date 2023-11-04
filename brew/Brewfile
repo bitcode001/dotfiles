@@ -1,0 +1,166 @@
+tap "homebrew/bundle"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mongodb/brew"
+tap "romkatv/powerlevel10k"
+# Text processor and publishing toolchain for AsciiDoc
+brew "asciidoctor"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Parser generator
+brew "bison"
+# Cross-platform make
+brew "cmake"
+# Dependency Manager for PHP
+brew "composer"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Generate documentation for several programming languages
+brew "doxygen"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Geospatial Data Abstraction Library
+brew "gdal"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Fast, Dynamic Programming Language
+brew "julia"
+# Run local Kubernetes cluster in Docker
+brew "kind"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Tool that can switch between kubectl contexts easily and create aliases
+brew "kubectx"
+# Package manager for the Lua programming language
+brew "luarocks"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Manage multiple Node.js versions
+brew "nvm"
+# Manage compile and link flags for libraries
+brew "pkg-config"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Python interface to Tcl/Tk
+brew "python-tk@3.11"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Install various Ruby versions and implementations
+brew "ruby-build"
+# Ruby version manager
+brew "rbenv"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Safe, concurrent, practical language
+brew "rust"
+# Multi-media library with bindings for multiple languages
+brew "sfml"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Tool to build, change, and version infrastructure
+brew "terraform"
+# Terminal multiplexer
+brew "tmux"
+# Watch files and take action when they change
+brew "watchman"
+# Internet file retriever
+brew "wget"
+# General-purpose lossless data-compression library
+brew "zlib"
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community"
+# Theme for zsh
+brew "romkatv/powerlevel10k/powerlevel10k"
+# Archive manager for data compression and backups
+cask "rar"
+# OpenJDK distribution from Azul
+cask "zulu11"
+vscode "alexisvt.flutter-snippets"
+vscode "andreasblech.better-tests"
+vscode "andys8.jest-snippets"
+vscode "astro-build.astro-vscode"
+vscode "boyswan.glsl-literal"
+vscode "BracketPairColorDLW.bracket-pair-color-dlw"
+vscode "bradlc.vscode-tailwindcss"
+vscode "burkeholland.simple-react-snippets"
+vscode "Catppuccin.catppuccin-vsc"
+vscode "Catppuccin.catppuccin-vsc-icons"
+vscode "chriskirknielsen.visubezier"
+vscode "Dart-Code.dart-code"
+vscode "Dart-Code.flutter"
+vscode "dbaeumer.vscode-eslint"
+vscode "dsznajder.es7-react-js-snippets"
+vscode "dzhavat.bracket-pair-toggler"
+vscode "eamodio.gitlens"
+vscode "EQuimper.react-native-react-redux"
+vscode "Equinusocio.vsc-community-material-theme"
+vscode "esbenp.prettier-vscode"
+vscode "FelixAngelov.bloc"
+vscode "formulahendry.auto-rename-tag"
+vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"
+vscode "github.vscode-github-actions"
+vscode "GrapeCity.gc-excelviewer"
+vscode "GraphQL.vscode-graphql"
+vscode "GraphQL.vscode-graphql-syntax"
+vscode "hashicorp.terraform"
+vscode "hzgood.dart-data-class-generator"
+vscode "jebbs.plantuml"
+vscode "johnpapa.vscode-peacock"
+vscode "localizely.flutter-intl"
+vscode "mhutchie.git-graph"
+vscode "mintlify.document"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-python.black-formatter"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.live-server"
+vscode "PKief.material-icon-theme"
+vscode "PKief.material-product-icons"
+vscode "qwtel.sqlite-viewer"
+vscode "redhat.java"
+vscode "redhat.vscode-debug-adapter-apache-camel"
+vscode "redhat.vscode-yaml"
+vscode "ritwickdey.LiveServer"
+vscode "shd101wyy.markdown-preview-enhanced"
+vscode "slevesque.shader"
+vscode "TabNine.tabnine-vscode"
+vscode "tomoki1207.pdf"
+vscode "TomRijndorp.find-it-faster"
+vscode "tontsa28.gitdark"
+vscode "tonybaloney.vscode-pets"
+vscode "twxs.cmake"
+vscode "unifiedjs.vscode-mdx"
+vscode "usernamehw.errorlens"
+vscode "VisualStudioExptTeam.intellicode-api-usage-examples"
+vscode "VisualStudioExptTeam.vscodeintellicode"
+vscode "vscjava.vscode-gradle"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "vscodevim.vim"
+vscode "wayou.vscode-icons-mac"
+vscode "wix.vscode-import-cost"
+vscode "yzhang.markdown-all-in-one"
