@@ -1,5 +1,15 @@
 ## Steps to bootstrap a new mac machine
 
+#### Some essentials packages to install
+
+- Homebrew - Package manager for Mac OS
+- Stow - Symlink farm manager
+- Tmux - Terminal multiplexer
+- Oh my zsh - Framework for zshell
+- powerlevel10k - Theme for oh my zsh
+
+<br />
+
 1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
 
 ```zsh
