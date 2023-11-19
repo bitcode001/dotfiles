@@ -1,12 +1,16 @@
 ## Steps to bootstrap a new mac machine
 
-#### Some essentials packages to install
+#### Some essentials packages/softwares to install
 
 - Homebrew - Package manager for Mac OS
 - Stow - Symlink farm manager
+- nvim - superpowered vim (NeoVim)
 - Tmux - Terminal multiplexer
+- TPM - Tmux plugin manager
 - Oh my zsh - Framework for zshell
 - powerlevel10k - Theme for oh my zsh
+- fzf - Command line fuzzy finder
+- ripgrep - Requires for functioning grep tool in nvim
 
 <br />
 
